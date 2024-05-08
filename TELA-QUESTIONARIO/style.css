@@ -55,7 +55,7 @@ button > h4 {
     border: 1px solid #edeef0;
     border-radius: 6px;
 
-    overflow: hidden; /*não transbordar, não sair da caixinha*/
+    overflow: hidden; 
 }
 
 .quiz-item > h3 {
@@ -81,14 +81,14 @@ button > h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0; /*não apertar quando a tela dimiuir*/
+    flex-shrink: 0; 
 }
 
 .quiz-item > dl {
     padding: 20px 24px;
 
     display: grid;
-    gap: 8px; /*espaço entre e precisa do grid p funcionar*/
+    gap: 8px; 
 }
 
 .quiz-item > dl > dt {
@@ -96,15 +96,15 @@ button > h4 {
     line-height: 24px;
     letter-spacing: 0;
 
-    display: flex; /*um do lado do outro*/
+    display: flex; 
     align-items: center;
     gap: 8px;
-    /*font-weight: ; /*finura a grossura da fonte (peso da fonte)*/
+    /*font-weight: ; 
     color: #e2e8f0;
 }
 
 input {
-    all: unset; /**tira as configurações*/
+    all: unset; 
     border: 1px solid #94a3b8;
     width: 16px;
     height: 16px;
