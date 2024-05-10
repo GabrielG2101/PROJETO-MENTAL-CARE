@@ -42,10 +42,39 @@ header > h2 {
         font-size: 20px;
         color: #87b6be;
 }
-button > h4 {
-    font-size: 22.5px;
-    color:#000000
+
+header > h5 {
+    font-size: 25px;
+    color:#7b9ea1
 }
+header > h6 {
+    font-size: 20px;
+    color:#5b7a7e
+}
+.sim {
+        color: rgb(255, 255, 255); 
+        font-size: 20px; 
+        font-family: Arial, sans-serif; 
+    }
+    
+.nao {
+        color: rgb(255, 255, 255); 
+        font-size: 18px; 
+        font-family: Arial, sans-serif; 
+    }
+    
+.outros {
+        color: rgb(247, 247, 247); 
+        font-size: 16px; 
+        font-family: Arial, sans-serif; 
+    }
+
+.diag {
+        color: rgb(1, 29, 19); 
+        font-size: 20px; 
+        font-family: Arial, sans-serif; 
+}
+      
 #quiz {
     counter-reset: quiz-item;
 }
@@ -55,7 +84,7 @@ button > h4 {
     border: 1px solid #edeef0;
     border-radius: 6px;
 
-    overflow: hidden; 
+    overflow: hidden; /*não transbordar, não sair da caixinha*/
 }
 
 .quiz-item > h3 {
@@ -81,14 +110,14 @@ button > h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0; 
+    flex-shrink: 0; /*não apertar quando a tela dimiuir*/
 }
 
 .quiz-item > dl {
     padding: 20px 24px;
 
     display: grid;
-    gap: 8px; 
+    gap: 8px; /*espaço entre e precisa do grid p funcionar*/
 }
 
 .quiz-item > dl > dt {
@@ -96,15 +125,15 @@ button > h4 {
     line-height: 24px;
     letter-spacing: 0;
 
-    display: flex; 
+    display: flex; /*um do lado do outro*/
     align-items: center;
     gap: 8px;
-    /*font-weight: ; 
+    /*font-weight: ; /*finura a grossura da fonte (peso da fonte)*/
     color: #e2e8f0;
 }
 
 input {
-    all: unset; 
+    all: unset; /**tira as configurações*/
     border: 1px solid #94a3b8;
     width: 16px;
     height: 16px;
